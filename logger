@@ -1,5 +1,6 @@
-<!DOCTYPE html> == $0
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Car Upgrades</title>
@@ -149,6 +150,7 @@
         }
     </style>
 </head>
+
 <body>
     <!-- Logo container -->
     <div class="logo-container">
@@ -232,10 +234,10 @@
     </ul>
 
     <!-- Total price display -->
-    <h2>Total: $<span id="totalPrice">18,750</span></h2>
+    <h2>Total: $<span id="totalPrice">0</span></h2>
 
     <!-- Selected items display -->
-    <div id="selectedItems"><p>Arch Cover x1 - $500</p><p>Aerial x1 - $500</p><p>Armor x1 - $4,250</p><p>Brakes x2 - $13,000</p><p>Exhaust x1 - $500</p></div>
+    <div id="selectedItems"></div>
     <div id="selectedItemsList"></div>
     <br>
 
@@ -251,12 +253,7 @@
     <button id="resetTotal" onclick="resetTotal()">Reset Total</button>
 
     <!-- Summary section -->
-    <div id="summary"><span class="data-label">Customer Name:</span> <br>
-                                        <span class="data-label">Vehicle | Make/Model:</span> <br>
-                                        <span class="data-label">Plate:</span> <br>
-                                        <span class="data-label">Upgrades Purchased:</span> Arch Cover, Aerial, Armor, Brakes, Exhaust<br>
-                                        <span class="data-label">Price Charged:</span> $18,750<br>
-                                        <span class="data-label">SHOP:</span> Hayes</div>
+    <div id="summary"></div>
 
     <!-- Script section -->
     <script>
@@ -388,8 +385,6 @@
             });
         }
     </script>
-
-
-
 </body>
+
 </html>
