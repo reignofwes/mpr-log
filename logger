@@ -14,7 +14,7 @@
 
         h1,
         h2 {
-            color: #1E74B8;
+            color: #000000;
             /* Change heading color to blue */
         }
 
@@ -34,9 +34,9 @@
             border-radius: 5px;
             cursor: pointer;
             font-weight: bold;
-            color: #1E74B8;
+            color: #000000;
             /* Change text color of buttons to blue */
-            background-color: #EAA742;
+            background-color: #ffe8f9;
             /* Change background color of buttons to yellow */
             transition: background 0.3s ease;
         }
@@ -51,9 +51,9 @@
         }
 
         li {
-            background-color: #1E74B8;
+            background-color: #ffe8f9;
             /* Change background color of items to blue */
-            color: #EAA742;
+            color: #000000;
             /* Change text color of items to yellow */
             padding: 10px;
             margin-bottom: 10px;
@@ -73,7 +73,7 @@
         #selectedItems,
         #selectedItemsList,
         #summary {
-            color: #1E74B8;
+            color: #000000;
             display: inline-block;
             width: auto;
         }
@@ -100,9 +100,9 @@
             cursor: pointer;
             margin-left: 10px;
             font-weight: bold;
-            color: #EAA742;
+            color: #000000;
             /* Change text color of buttons to yellow */
-            background-color: #1E74B8;
+            background-color: #ffe8f9;
             /* Change background color of buttons to blue */
             border: none;
             border-radius: 5px;
@@ -122,12 +122,12 @@
         #selectedItemsList,
         #summary {
             margin-top: 10px;
-            color: #1E74B8;
+            color: #000000;
         }
 
         /* Change color of data to blue */
         .data-label {
-            color: #1E74B8;
+            color: #000000;
             font-weight: bold;
         }
 
