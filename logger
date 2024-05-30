@@ -154,7 +154,7 @@
 <body>
     <!-- Logo container -->
     <div class="logo-container">
-        <img src="https://cdn.discordapp.com/attachments/1228023438728237191/1245634457239683173/mprlogodiscord2.png?ex=665976fd&is=6658257d&hm=5f2e501e51e997f97699087da6f88d019c3357a792ab6642e3f50afa4716cdab&" alt="Hayes Logo">
+        <img src="https://discord.cloud/i/ffju04hnw" alt="Mirror Park Repair">
     </div>
 
     <label for="customerName" class="data-label">Customer Name:</label>
